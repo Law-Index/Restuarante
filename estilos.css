@@ -12,6 +12,10 @@
 
     border: solid 10px #8AC926;
     height: 60px;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
 }
 
 .menu_bay
@@ -23,4 +27,44 @@
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    transition: 0.5s;
+}
+.menu_bay:hover
+{
+    color: #1982C4;
+}
+.contenedor_padre
+{
+    margin-top: 100px;
+    height: 100%;
+    display: flex;
+}
+.contenedor_padre .text
+{
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor_padre .text_p
+{
+    margin-top: -20px;
+    background-color: black;
+    border: 5px solid #8AC926;
+    border-top: none;
+    width: 20%;
+}
+
+.cambiar
+{
+    position: fixed;
+    bottom: 0;
+    width: 40px;
+    text-align: center;
+    border: solid black 2px;
+    background-color: #8AC926;
 }
