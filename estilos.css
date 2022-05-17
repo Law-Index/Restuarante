@@ -2,6 +2,10 @@
     box-sizing: 0%;;
     margin:0;
 }
+html
+{
+    scroll-behavior:smooth;
+}
 body
 {
     background-color: black;
@@ -36,10 +40,13 @@ body
 {
     color: #1982C4;
 }
+
+
+/*Section del primer contenido y primer color.*/
 .contenedor_padre
 {
     margin-top: 100px;
-    height: 100%;
+    height: 560px;
     display: flex;
     color:white;
 }
@@ -50,19 +57,48 @@ body
     padding-right: 10px;
 
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+    margin-top: 120px;
 }
 
+.img1
+{
+    width: 50px;
+    height: 50px;
+
+    margin-bottom: 20px;
+}
+.img2
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 220px;
+}
 .contenedor_padre .text_p
 {
     margin-top: -20px;
     background-color: black;
-    border: 5px solid #8AC926;
+    border: 8px solid #8AC926;
     border-top: none;
     width: 20%;
-}
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.enjoy
+{
+    font-size: 50px;
+    margin-top: 40px;
+    font-family: 'Anton', sans-serif;
+}
 .cambiar
 {
     position: fixed;
@@ -73,11 +109,41 @@ body
     background-color: #8AC926;
 }
 
+/*Section del primer contenido y primer color.*/
+
+
+
+/*Section del SEGUNDO contenido*/
+.contenedor_padre_2 
+{
+    margin-top: 50px;
+    height: 100%;
+    display: flex;
+    color:white;
+}
+.contenedor_padre_2 .text_p_2
+{
+
+    background-image: url("imagenes/line.png");
+    background-position: center;
+    background-size: 100px;
+    border: 8px solid #8AC926;
+    width: 20%;   
+}
+
+.img3
+{
+    width: 80px;
+    height: 80px;
+}
 .menusito
 {
-    width: 100%;
-    height: 300px;
+    width: 60%;
+    height: 600px;
 
+    align-items: center;
+    justify-content: space-around;
+    color: white;
     display: grid;
     grid-template-columns: repeat(3fr);
     grid-template-rows: repeat(2fr);
@@ -85,4 +151,75 @@ body
     "h h h "
     "b b b "
     ;
+    gap: 10px;
+
+    padding: 10px;
+}
+.imagenes_menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comidas
+{
+    width: 160px;
+    height: 160px;
+}
+
+
+
+
+.contenedor_contacto
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 700px;
+}
+.img5
+{
+    width: 200px;
+    height: 200px;
+}
+.contenedor_contacto .contactooo
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items:center;
+}
+
+label
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+#redes
+{
+
+    width: 100%;
+    height: 100px;
+
+    background-color: #694c9386;
+    color: white;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+
 }

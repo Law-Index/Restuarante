@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -13,18 +14,24 @@
     <section class="Menu">
 
         <ul>
-            <a href="" class="menu_bay"> Productos </a>
-            <a href="" class="menu_bay"> Contacto </a>
-            <a href="" class="menu_bay"> Reservas </a>
+            <a href="#linea" class="menu_bay"> Productos </a>
+            <a href="#contacto" class="menu_bay"> Contacto/Reservas </a>
+            <a href="#redes" class="menu_bay"> Redes</a>
         </ul>
 
     </section>
 
-    <section class="contenedor_padre">
+    <section class="contenedor_padre" id="principio">
 
-        <div class="text_p"></div>
+        <div class="text_p">
+            <img src="imagenes/lantern.png" class="img2">
+            <img src="imagenes/lantern.png" class="img2">
+        </div>
 
         <div class="text">
+
+            <img src="imagenes/restaurant.png" class="img1">
+
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Perspiciatis nihil eum obcaecati praesentium iusto ut fugit 
                 perferendis alias reprehenderit at quisquam provident tempora
@@ -35,24 +42,69 @@
                 Maiores eligendi itaque quisquam officiis facere doloremque velit
                 commodi id magnam natus, praesentium temporibus? Cum ullam amet molestias</p>
 
-            <div class="menusito">
-                <p>1</p>
-                <p>2</p>
-                <p>3</p>
-                <p>4</p>
-                <p>5</p>
-                <p>6</p>
-            </div>
+            <p class="enjoy">ENJOY</p>
 
-            <a class="cambiar">↺</a>
+            <a href="#principio" class="cambiar">↺</a>
 
         </div>
 
-        <div class="text_p"></div>
+        <div class="text_p">
+            <img src="imagenes/lantern.png" class="img2">
+            <img src="imagenes/lantern.png" class="img2">
+        </div>
+
+    </section>
+
+    <p id="linea">o</p>
+
+    <section class="contenedor_padre_2" id="productos">
+
+        <div class="text_p_2"></div>
+
+        <div class="menusito">
+            <div class="imagenes_menu"><img src="imagenes/tray.png" class="img3"></div>
+
+               <img src="imagenes/comida_1.jpg" class="comidas">
+               <img src="imagenes/comida_2.jfif" class="comidas">
+               <img src="imagenes/comida_3.jfif" class="comidas">
+               <img src="imagenes/comida_5.jfif" class="comidas">
+               <img src="imagenes/comida_4.jfif" class="comidas">
+               <img src="imagenes/comida_6.jfif" class="comidas">
+               <img src="imagenes/comida_7.jfif" class="comidas">
+
+            <div class="imagenes_menu"><img src="imagenes/tray.png" class="img3"></div>
+        </div>
+
+        <div class="text_p_2"></div>
 
     </section>
 
 
+    <section class="contenedor_contacto" id="contacto">
+
+        <div class="contactooo">
+
+            <img src="imagenes/food-service.png" class="img5">
+
+            <label for=""> Nombre </label>
+            <input type="text">
+
+            <label for="" > Cantidad </label>
+            <input type="number" name="" id="">
+
+            <button>Send</button>
+
+        </div>
+
+    </section>
+
+
+    <footer id="redes">
+
+        <p>creador: Julian</p>
+        <p>resultado: echo leña</p>
+        
+    </footer>
 
 </body>
 </html>
